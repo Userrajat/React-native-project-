@@ -1,9 +1,12 @@
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+
 export const UserData = [
     {
         id: 1,
         name : 'Elon Musk',
         username : 'muskelon',
-        profile : require('../assets/data/elondp.png'),
+        profile : require('../Images/elondp.png'),
         story : {
             time : 10,
             image : require('../assets/data/elonstory.png'),
@@ -70,3 +73,8 @@ export const UserData = [
 
 
 ]
+ 
+
+export default UserData
+
+const styles = StyleSheet.create({})
